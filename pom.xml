@@ -19,6 +19,10 @@
 		<commons-io.version>1.3.2</commons-io.version>
 		<camel.version>2.12.0</camel.version>
 		<slf4j.version>1.6.1</slf4j.version>
+		<proton-jms.version>0.6</proton-jms.version>
+		<commons-daemon.version>1.0.15</commons-daemon.version>
+		<wrapper.version>3.2.3</wrapper.version>
+		<xstream.version>1.3.1</xstream.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -125,6 +129,21 @@
 				<groupId>org.apache.camel</groupId>
 				<artifactId>camel-test</artifactId>
 				<version>${camel.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.qpid</groupId>
+				<artifactId>proton-jms</artifactId>
+				<version>${proton-jms.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.thoughtworks.xstream</groupId>
+				<artifactId>xstream</artifactId>
+				<version>${xstream.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>commons-daemon</groupId>
+				<artifactId>commons-daemon</artifactId>
+				<version>${commons-daemon.version}</version>
 			</dependency>
 
 			<!-- GSON -->
