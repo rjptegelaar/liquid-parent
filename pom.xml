@@ -181,7 +181,7 @@
 			<dependency>
 				<groupId>aopalliance</groupId>
 				<artifactId>aopalliance</artifactId>
-				<version>${aopalliance.version}}</version>
+				<version>${aopalliance.version}</version>
 			</dependency>
 
 			<!-- TESTING -->
