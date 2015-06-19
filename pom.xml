@@ -104,6 +104,12 @@
 				<version>${spring.version}</version>
 			</dependency>
 
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-jms</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+
 			<!-- APACHE -->
 			<dependency>
 				<groupId>org.apache.activemq</groupId>
