@@ -16,7 +16,7 @@
 		<xbean.version>3.14</xbean.version>
 		<stills.version>0.1.40</stills.version>
 		<commons-io.version>1.3.2</commons-io.version>
-		<camel.version>2.12.0</camel.version>
+		<camel.version>2.16.2</camel.version>
 		<slf4j.version>1.6.1</slf4j.version>
 		<proton-jms.version>0.6</proton-jms.version>
 		<commons-daemon.version>1.0.15</commons-daemon.version>
@@ -25,6 +25,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<querydsl.version>3.7.0</querydsl.version>
 		<openjpa.version>2.4.0</openjpa.version>
+		<gorizza.version>0.4.1</gorizza.version>
 	</properties>
 
 	<build>
@@ -209,7 +210,14 @@
 				<artifactId>stilts-stomp-client</artifactId>
 				<version>${stills.version}</version>
 			</dependency>
-
+			
+			<!-- GORIZZA -->
+			<dependency>
+		  		<groupId>net.ser1</groupId>
+		  		<artifactId>gozirra-client</artifactId>
+		  		<version>${gozirra.version}</version>
+		  	</dependency>
+		  	
 			<!-- Querydsl -->
 			<dependency>
 				<groupId>com.mysema.querydsl</groupId>
