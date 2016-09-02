@@ -25,7 +25,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<querydsl.version>3.7.0</querydsl.version>
 		<openjpa.version>2.4.0</openjpa.version>
-		<gorizza.version>0.4.1</gorizza.version>
+		<gozirra.version>0.4.1</gozirra.version>
 	</properties>
 
 	<build>
