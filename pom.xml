@@ -1,8 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.pte.liquid.relay</groupId>
 	<artifactId>liquid-parent</artifactId>
-	<version>0.0.8-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>liquid-parent</name>
 
 	<properties>
@@ -124,6 +125,36 @@
 				<version>${activemq.version}</version>
 			</dependency>
 			<dependency>
+				<groupId>org.apache.activemq</groupId>
+				<artifactId>activemq-broker</artifactId>
+				<version>${activemq.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.activemq</groupId>
+				<artifactId>activemq-jaas</artifactId>
+				<version>${activemq.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.activemq</groupId>
+				<artifactId>activemq-client</artifactId>
+				<version>${activemq.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.activemq</groupId>
+				<artifactId>activemq-camel</artifactId>
+				<version>${activemq.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.activemq</groupId>
+				<artifactId>activemq-kahadb-store</artifactId>
+				<version>${activemq.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.activemq</groupId>
+				<artifactId>activemq-stomp</artifactId>
+				<version>${activemq.version}</version>
+			</dependency>
+			<dependency>
 				<groupId>org.apache.xbean</groupId>
 				<artifactId>xbean-spring</artifactId>
 				<version>${xbean.version}</version>
@@ -210,14 +241,14 @@
 				<artifactId>stilts-stomp-client</artifactId>
 				<version>${stills.version}</version>
 			</dependency>
-			
+
 			<!-- GORIZZA -->
 			<dependency>
-		  		<groupId>net.ser1</groupId>
-		  		<artifactId>gozirra-client</artifactId>
-		  		<version>${gozirra.version}</version>
-		  	</dependency>
-		  	
+				<groupId>net.ser1</groupId>
+				<artifactId>gozirra-client</artifactId>
+				<version>${gozirra.version}</version>
+			</dependency>
+
 			<!-- Querydsl -->
 			<dependency>
 				<groupId>com.mysema.querydsl</groupId>
@@ -234,14 +265,14 @@
 				<artifactId>querydsl-jpa</artifactId>
 				<version>${querydsl.version}</version>
 			</dependency>
-			
+
 			<!-- Open JPA -->
 			<dependency>
 				<groupId>org.apache.openjpa</groupId>
 				<artifactId>openjpa</artifactId>
-				<version>${openjpa.version}</version>			
+				<version>${openjpa.version}</version>
 			</dependency>
-			
+
 		</dependencies>
 	</dependencyManagement>
 
@@ -255,7 +286,7 @@
 		<repository>
 			<id>bintray</id>
 			<url>https://api.bintray.com/maven/paultegelaar/maven/liquid-parent</url>
-		</repository>		
+		</repository>
 		<snapshotRepository>
 			<id>pte-snapshots</id>
 			<name>internal snapshots</name>
