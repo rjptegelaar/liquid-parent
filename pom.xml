@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>nl.paultegelaar.liquid.relay</groupId>
 	<artifactId>liquid-parent</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 
 	<properties>
@@ -297,7 +297,7 @@
 		<connection>scm:git:https://github.com/rjptegelaar/liquid-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:rjptegelaar/liquid-parent.git</developerConnection>
 		<url>https://github.com/rjptegelaar/liquid-parent.git</url>
-		<tag>HEAD</tag>
+		<tag>liquid-parent-1.0.1</tag>
 	</scm>
 	<distributionManagement>
 		<repository>
